@@ -1,0 +1,117 @@
+body{
+    padding:0;
+    margin:0;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.nav-bar{
+    padding: 35px 0;
+}
+header .nav-bar .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-bar nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.nav-bar nav ul a{
+    text-decoration: none;
+    color:#777777;
+    font-size:14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.hero-sec{
+    background: linear-gradient(to right,#202020ba, #3a393bcc), url(images/Background.png);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+.hero-sec h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    padding-top: 48px;
+}
+.hero-sec h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: -48px;
+}
+.hero-sec p{
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    margin-top: -13px;
+}
+.hero-sec button{
+    background-color: #7cc576;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin: 27px 623px;
+    padding: 15px 14px;
+}
+.service-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.service-text p{
+    text-align: center;
+    text-transform: uppercase;
+    color: grey;
+    font-size: 15px;
+}
+.service-about{
+    display: flex;
+    flex-direction: row;
+}
+.design{
+    margin: 50px;
+}
+.design img{
+    margin-left: 150px;
+}
+.design h3{
+    margin-left: 110px;
+}
+.design p{
+    color: grey;
+}
+.mobile{
+    margin: 50px 20px;
+}
+.mobile img{
+    margin-left: 150px;
+}
+.mobile h3{
+    margin-left: 110px;
+}
+.mobile p{
+    color: grey;
+}
+.graph{
+    margin: 50px;
+}
+.graph img{
+    margin-left: 150px;
+}
+.graph h3{
+    margin-left: 110px;
+}
+.graph p{
+    color: grey;
+}
